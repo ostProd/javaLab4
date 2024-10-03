@@ -1,4 +1,4 @@
-public class num38 {
+public class task38 {
     public static void main(String[] args){
     int [] arr1 = {3, 1, 17, -4, 12};
     int [] arr2 = {5, -12, 5, -9, 15};
