@@ -17,13 +17,10 @@ public class task38 {
         if (arr.length < 3) {
             throw new ArrayIndexOutOfBoundsException("Масив має складатись хоча б з 3 елементів");
         }
+
         int thirdEl = arr[2];
-        int maxEl = arr[0];
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] > maxEl) {
-                maxEl = arr[i];
-            }
-        }
+        int maxEl = arr[arr.length - 1];
+
         int sum = maxEl + thirdEl;
         System.out.println(sum);
     }
